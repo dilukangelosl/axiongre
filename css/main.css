@@ -7,7 +7,7 @@
   height: 100vh;
 width: 100vw;
 background: #000;
-background: url(https://creano.paris/wp-content/themes/creano/assets/img/homeinter--mask2.png);
+background: url('../img/maintext.png');
 background-position: center;
 background-size: 130%;
 background-repeat: no-repeat;
@@ -19,10 +19,14 @@ top: 0;
   position: absolute;
   top: 0;
 }
-.logocontainer{
 
+body{
+  overflow: hidden;
+}
+.logocontainer{
+  overflow: hidden;
   text-align: center;
-  top: 50%;
+  top: 30%;
   position: relative;
 
   width: 400px;
@@ -56,11 +60,16 @@ top: 0;
 }
 
 .cic2{
-fill: rgba(0, 0, 0, 0.2);
+    fill: rgba(255, 255, 255, 0.2);
   stroke-dasharray: 616;
 stroke-dashoffset: 616;
 stroke: #fff;
 stroke-width: 4;
+transition: fill 1s ease;
+}
+
+.svgholder:hover .cic2{
+    fill: rgba(255, 255, 255, 0.9);
 }
 
 video{
@@ -141,7 +150,7 @@ vertical-align: middle;
 
 .svgholder h2{
   position: absolute;
-    color: white;
+    color: #1b1b1b;
     text-align: center;
     bottom: -10px;
     right: 0;
@@ -150,9 +159,10 @@ vertical-align: middle;
 
 .svgholder p{
   position: absolute;
-    color: white;
+    color: #1b1b1b;
     text-align: center;
     bottom: 100px;
     right: 0;
     left: 0;
+    font-size:1.2em;
 }
