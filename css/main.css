@@ -1,0 +1,158 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#particles-js{
+  height: 100vh;
+width: 100vw;
+background: #000;
+background: url(https://creano.paris/wp-content/themes/creano/assets/img/homeinter--mask2.png);
+background-position: center;
+background-size: 130%;
+background-repeat: no-repeat;
+position: absolute;
+top: 0;
+}
+
+#particles-js canvas{
+  position: absolute;
+  top: 0;
+}
+.logocontainer{
+
+  text-align: center;
+  top: 50%;
+  position: relative;
+
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+  z-index: 9999;
+  padding: 10px;
+  transition: all 2s ease;
+
+
+
+}
+
+
+#cic3{
+  position: absolute;
+  left:0;
+}
+#cic{
+      position: absolute;
+        left:0;
+}
+
+.cic1{
+  stroke: #fff;
+    stroke-width: 2;
+    opacity: .1;
+    transition: .15s;
+
+}
+
+.cic2{
+fill: rgba(0, 0, 0, 0.2);
+  stroke-dasharray: 616;
+stroke-dashoffset: 616;
+stroke: #fff;
+stroke-width: 4;
+}
+
+video{
+  height: 100%;
+width: 100%;
+opacity: 1;
+z-index: -200;
+}
+
+.videomask{
+    background: url(https://creano.paris/wp-content/themes/creano/assets/img/homeinter--mask2.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.videocontainer{
+background: url(../img/bgtexture.png);
+  position: absolute;
+  top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+
+      background-size: cover;
+}
+
+.textbg{
+  background: url(../img/bgtexture.png), #000;
+}
+
+.rightbar{
+  opacity: 0;
+position: fixed;
+height: 100%;
+width: 50px;
+right: -50px;
+top: 0px;
+color: #fff;
+overflow: hidden;
+z-index: 50;
+display: table-cell;
+text-align: left;
+vertical-align: middle;
+}
+
+.rightbar p{
+  position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: translate(-50%,-50%) rotate(90deg);
+    -moz-transform: translate(-50%,-50%) rotate(90deg);
+    transform: translate(-50%,-50%) rotate(90deg);
+    top: 50%;
+    left: 50%;
+    width: 50vh;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    letter-spacing: 2px;
+    text-indent: 1px;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+
+.svgholder h2{
+  position: absolute;
+    color: white;
+    text-align: center;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+}
+
+.svgholder p{
+  position: absolute;
+    color: white;
+    text-align: center;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+}
