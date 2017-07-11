@@ -15,6 +15,27 @@ position: absolute;
 top: 0;
 }
 
+.volumecontrols{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  z-index: 99999;
+}
+
+#intro{
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  transition: all 1s ease;
+}
+
+.volumecontrols i {
+  font-size: 2em;
+  font-weight: 300;
+  color:#1b1b1b;
+
+}
+
 #particles-js canvas{
   position: absolute;
   top: 0;
